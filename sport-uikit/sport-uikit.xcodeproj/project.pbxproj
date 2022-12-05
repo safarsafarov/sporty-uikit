@@ -56,15 +56,31 @@
 		8B9FA29C293CACFF00E5441F /* sport-uikit */ = {
 			isa = PBXGroup;
 			children = (
+				8BD0FD39293E5D20004FD6E1 /* Application */,
+				8B9FA2A1293CACFF00E5441F /* ViewController.swift */,
+				8BD0FD3A293E5D29004FD6E1 /* SupportingFiles */,
+			);
+			path = "sport-uikit";
+			sourceTree = "<group>";
+		};
+		8BD0FD39293E5D20004FD6E1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				8B9FA29D293CACFF00E5441F /* AppDelegate.swift */,
 				8B9FA29F293CACFF00E5441F /* SceneDelegate.swift */,
-				8B9FA2A1293CACFF00E5441F /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8BD0FD3A293E5D29004FD6E1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				8B9FA2A3293CACFF00E5441F /* Main.storyboard */,
 				8B9FA2A6293CAD0000E5441F /* Assets.xcassets */,
 				8B9FA2A8293CAD0100E5441F /* LaunchScreen.storyboard */,
 				8B9FA2AB293CAD0100E5441F /* Info.plist */,
 			);
-			path = "sport-uikit";
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,12 +305,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73DJK9R2PB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "sport-uikit/Info.plist";
+				INFOPLIST_FILE = "sport-uikit/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +317,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.sport-uikit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +335,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73DJK9R2PB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "sport-uikit/Info.plist";
+				INFOPLIST_FILE = "sport-uikit/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +347,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.sport-uikit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
